@@ -1,4 +1,0 @@
-v 4
-file . "sign_magnitude_adder.vhdl" "aa885093b69adbf06e7380689123d1576f7be1cb" "20231122171830.058":
-  entity sign_magnitude_adder at 1( 0) + 0 on 11;
-  architecture arch_sign_magnitude_adder of sign_magnitude_adder at 12( 278) + 0 on 12;
