@@ -9,7 +9,7 @@ architecture tb_dual_edge of tb_dual_edge_detector is
     signal clk, reset, level: std_logic;
     signal rising_edge_level, falling_edge_level: std_logic; 
     begin
-        uut: entity work.dual_edge_detector(arch_dual_edge)
+        uut: entity work.dual_edge_det_mealy(arch_dual_edge_det_mealy)
         port map(clk=>clk, reset=>reset, rising_edge_level=>rising_edge_level,
         falling_edge_level=>falling_edge_level, level=>level);
     process

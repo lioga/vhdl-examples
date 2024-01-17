@@ -1,7 +1,0 @@
-v 4
-file . "dual_edge_detector.vhdl" "fb42a01278033a3c40869d00594428c94eef2b76" "20240115124615.428":
-  entity dual_edge_detector at 1( 0) + 0 on 15;
-  architecture arch_dual_edge of dual_edge_detector at 12( 239) + 0 on 16;
-file . "tb_dual_edge_detector.vhdl" "85ccba76431a3d9b327378566663daf71b814134" "20240115124615.429":
-  entity tb_dual_edge_detector at 1( 0) + 0 on 17;
-  architecture tb_dual_edge of tb_dual_edge_detector at 7( 104) + 0 on 18;
